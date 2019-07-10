@@ -15,9 +15,9 @@ namespace irthermoblock {
     }
 
     /* GY-906 MLXMLX90614B IR Thermometer addr 0x5A register 0x06 return ambient temperature */
-    //% blockId="irthermogetTa" block="IRThermo get Ta"
+    //% blockId="irthermoTa" block="IRThermo get Ta"
     //% blockGap=2 weight=88
-    export function irthermogetTa(): number {
+    export function irthermoTa(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	pins.i2cWriteNumber(90,6,NumberFormat.UInt8LE,true)
