@@ -21,7 +21,7 @@ namespace irthermoblock {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	pins.i2cWriteNumber(90,6,NumberFormat.UInt8LE,true)
-	return Math.trunc((pins.i2cReadNumber(90,NumberFormat.UInt16LE,false) * 0.02) - 273.15)
+	return Math.round(pins.i2cReadNumber(90,NumberFormat.UInt16LE,false) * 0.02 - 273.15)
     }
 
 }
