@@ -1,5 +1,5 @@
 {
-    "name": "irthermo",
+    "name": "IR Thermometer",
     "version": "0.0.1",
     "description": "自製的 micro:bit IR Thermometer 積木",
     "license": "MIT",
