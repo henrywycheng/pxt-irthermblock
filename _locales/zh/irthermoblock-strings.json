@@ -2,8 +2,8 @@
 
     "irthermoblock|block": "自訂 IR Thermometer",
 
-    "irthermoblock.irthermoStart|block": "啟動 IR Thermometer",
+    "irthermoblock.irthermoStart|block": "啟動 IR Thermo",
 
-    "irthermoblock.irthermoTa|block": "讀取 IR Thermometer Ta",
+    "irthermoblock.irthermoTa|block": "讀取 IR Thermo Ta",
 
 }
