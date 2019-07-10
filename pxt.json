@@ -1,7 +1,7 @@
 {
-    "name": "selfblock",
+    "name": "IR Thermometer",
     "version": "0.0.1",
-    "description": "這是自製的 micro:bit Sensors 積木",
+    "description": "這是自製的 micro:bit IR Thermometer 積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/selfblock-strings.json"
+        "_locales/zh/irthermoblock-strings.json"
     ],
     "public": true
 }
