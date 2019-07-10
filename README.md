@@ -1,6 +1,6 @@
 # irthermo
 
-這是自製的 micro:bit IR Thermo 積木
+自製的 micro:bit IR Thermometer 積木
 
 ## License
 
