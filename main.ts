@@ -48,5 +48,16 @@ namespace irthermo {
         return Math.round(To2 * 0.02 - 273.15)
     }
 
+    /* GY-906 MLX90614B IR Thermometer addr 0x5A register 0xF0 return flags(4-bit) */
+    //% blockId="irthermoFlags" block="IRThermo Flags(4-bit)"
+    //% blockGap=2 weight=88
+    export function irthermoFlags(): number {
+	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
+	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
+	pins.i2cWriteNumber(90,240,NumberFormat.UInt8LE,true)
+	let flag = pins.i2cReadNumber(90, NumberFormat.UInt16LE, false)
+        return Math.idiv(flag, 4096)
+    }
+
 }
 
