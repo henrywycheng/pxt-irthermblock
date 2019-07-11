@@ -18,10 +18,7 @@ namespace irthermoblock {
     //% blockId="irthermoTa" block="IRThermo Ta"
     //% blockGap=2 weight=88
     export function irthermoTa(): number {
-	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
-	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
-	pins.i2cWriteNumber(90,6,NumberFormat.UInt8LE,true)
-	return pins.i2cReadNumber(90,NumberFormat.UInt16LE,false)
+	return 0
     }
 
 }
