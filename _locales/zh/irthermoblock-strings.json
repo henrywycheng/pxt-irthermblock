@@ -10,4 +10,6 @@
 
     "irthermo.irthermoTo2|block": "讀取 IR Thermo To2",
 
+    "irthermo.irthermoFlags|block": "讀取 IR Thermo Flags(4-bit)",
+
  }
