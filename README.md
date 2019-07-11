@@ -1,6 +1,6 @@
-# selfblock
+# irthermoblock
 
-這是自製的 micro:bit Sensors 積木
+這是自製的 micro:bit irthermo 積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-selfblock=github.com/henrywycheng/pxt-selfblock
+irthermoblock=github.com/henrywycheng/pxt-irthermoblock
 ```
