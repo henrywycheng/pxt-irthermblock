@@ -2,27 +2,6 @@
 
     "irthermo|block": "自訂 sensor",
 
-    "irthermo.G54enable|block": "啟動 G54",
+    "irthermo.irthermoStart|block": "啟動 IR Thermo",
 
-    "irthermo.G54getIDno|block": "讀取 G54 IDno",
-
-    "irthermo.G54getStatus|block": "讀取 G54 Status",
-
-    "irthermo.G54getClear|block": "讀取 G54 Clear data",
-
-    "irthermo.G54getRed|block": "讀取 G54 Red data",
-
-    "irthermo.G54getGreen|block": "讀取 G54 Green data",
-
-    "irthermo.G54getBlue|block": "讀取 G54 Blue data",
-
-    "irthermo.CJMCUTHIDno|block": "讀取 CJMCU8118 TH IDno",
-    "irthermo.CJMCUTHConfig|block": "讀取 CJMCU8118 TH Config",
-    "irthermo.CJMCUTHgetTemp|block": "讀取 CJMCU8118 TH get Temperature",
-    "irthermo.CJMCUTHgetHumid|block": "讀取 CJMCU8118 TH get Humidity",
-    "irthermo.CJMCUGasIDno|block": "讀取 CJMCU8118 Gas IDno",
-    "irthermo.CJMCUGasAppStart|block": "啟動 CJMCU8118 Gas App Start",
-    "irthermo.CJMCUGasStatus|block": "讀取 CJMCU8118 Gas Status",
-    "irthermo.CJMCUGasErrID|block": "讀取 CJMCU8118 Gas ErrorID",
-    "irthermo.CJMCUGasDrvMode|block": "啟動 CJMCU8118 Gas DrvMode1",
 }
