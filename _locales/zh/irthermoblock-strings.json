@@ -6,4 +6,8 @@
 
     "irthermo.irthermoTa|block": "讀取 IR Thermo Ta",
 
+    "irthermo.irthermoTo1|block": "讀取 IR Thermo To1",
+
+    "irthermo.irthermoTo2|block": "讀取 IR Thermo To2",
+
  }
