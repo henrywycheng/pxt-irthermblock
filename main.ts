@@ -1,6 +1,6 @@
-//% weight=0 color=#3CB371 icon="\uf2b9" block="Sensors"
+//% weight=0 color=#3CB371 icon="\uf2b9" block="irthermo"
 
-namespace selfblock {
+namespace irthermoblock {
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x00 command 0x80 return byte */
     //% blockId="G54enable" block="G54 Enable"
     //% blockGap=2 weight=89
