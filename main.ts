@@ -14,9 +14,4 @@ namespace irthermoblock {
 	return true
     }
 
-    //% blockId="irTa" block="IRThermoTa"
-    //% blockGap=2 weight=88
-    export function irTa(): number {
-	return 0
-    }
 }
