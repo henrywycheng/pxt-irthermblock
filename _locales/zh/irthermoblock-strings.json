@@ -1,28 +1,28 @@
 ﻿﻿{
 
-    "irthermoblock|block": "自訂 sensor",
+    "irthermblock|block": "自訂 sensor",
 
-    "irthermoblock.G54enable|block": "啟動 G54",
+    "irthermblock.G54enable|block": "啟動 G54",
 
-    "irthermoblock.G54getIDno|block": "讀取 G54 IDno",
+    "irthermblock.G54getIDno|block": "讀取 G54 IDno",
 
-    "irthermoblock.G54getStatus|block": "讀取 G54 Status",
+    "irthermblock.G54getStatus|block": "讀取 G54 Status",
 
-    "irthermoblock.G54getClear|block": "讀取 G54 Clear data",
+    "irthermblock.G54getClear|block": "讀取 G54 Clear data",
 
-    "irthermoblock.G54getRed|block": "讀取 G54 Red data",
+    "irthermblock.G54getRed|block": "讀取 G54 Red data",
 
-    "irthermoblock.G54getGreen|block": "讀取 G54 Green data",
+    "irthermblock.G54getGreen|block": "讀取 G54 Green data",
 
-    "irthermoblock.G54getBlue|block": "讀取 G54 Blue data",
+    "irthermblock.G54getBlue|block": "讀取 G54 Blue data",
 
-    "irthermoblock.CJMCUTHIDno|block": "讀取 CJMCU8118 TH IDno",
-    "irthermoblock.CJMCUTHConfig|block": "讀取 CJMCU8118 TH Config",
-    "irthermoblock.CJMCUTHgetTemp|block": "讀取 CJMCU8118 TH get Temperature",
-    "irthermoblock.CJMCUTHgetHumid|block": "讀取 CJMCU8118 TH get Humidity",
-    "irthermoblock.CJMCUGasIDno|block": "讀取 CJMCU8118 Gas IDno",
-    "irthermoblock.CJMCUGasAppStart|block": "啟動 CJMCU8118 Gas App Start",
-    "irthermoblock.CJMCUGasStatus|block": "讀取 CJMCU8118 Gas Status",
-    "irthermoblock.CJMCUGasErrID|block": "讀取 CJMCU8118 Gas ErrorID",
-    "irthermoblock.CJMCUGasDrvMode|block": "啟動 CJMCU8118 Gas DrvMode1",
+    "irthermblock.CJMCUTHIDno|block": "讀取 CJMCU8118 TH IDno",
+    "irthermblock.CJMCUTHConfig|block": "讀取 CJMCU8118 TH Config",
+    "irthermblock.CJMCUTHgetTemp|block": "讀取 CJMCU8118 TH get Temperature",
+    "irthermblock.CJMCUTHgetHumid|block": "讀取 CJMCU8118 TH get Humidity",
+    "irthermblock.CJMCUGasIDno|block": "讀取 CJMCU8118 Gas IDno",
+    "irthermblock.CJMCUGasAppStart|block": "啟動 CJMCU8118 Gas App Start",
+    "irthermblock.CJMCUGasStatus|block": "讀取 CJMCU8118 Gas Status",
+    "irthermblock.CJMCUGasErrID|block": "讀取 CJMCU8118 Gas ErrorID",
+    "irthermblock.CJMCUGasDrvMode|block": "啟動 CJMCU8118 Gas DrvMode1",
 }
