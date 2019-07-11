@@ -4,4 +4,6 @@
 
     "irthermo.irthermoStart|block": "啟動 IR Thermo",
 
-}
+    "irthermo.irthermoTa|block": "讀取 IR Thermo Ta",
+
+ }
