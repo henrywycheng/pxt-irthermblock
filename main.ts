@@ -1,4 +1,4 @@
-//% weight=0 color=#3CB371 icon="\uf2b9" block="IRThermometer"
+//% weight=0 color=#3CB371 icon="\uf2b9" block="IRThermo"
 
 namespace irthermo {
     /* G54 TCS34725 RGBC color sensor addr 0x29 register 0x00 command 0x80 return byte */
