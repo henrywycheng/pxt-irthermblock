@@ -1,4 +1,4 @@
-# irthermo
+# IR Thermo
 
 自製的 micro:bit IR Thermometer 積木
 
