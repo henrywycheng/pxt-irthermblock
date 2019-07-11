@@ -1,9 +1,7 @@
-﻿﻿{
+{
 
     "irthermoblock|block": "自訂 IR Thermometer",
 
     "irthermoblock.irthermoStart|block": "啟動 IR Thermo",
-
-    "irthermoblock.irTa|block": "讀取 IR Thermo Ta",
 
 }
