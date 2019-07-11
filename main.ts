@@ -1,4 +1,4 @@
-//% weight=0 color=#3CB371 icon="\uf2b9" block="IR Thermo"
+//% weight=0 color=#3CB371 icon="\uf1b3" block="IR Thermo"
 
 namespace irthermo {
     /* GY-906 MLX90614B IR Thermometer addr 0x5A register 0x0E return boolean */
