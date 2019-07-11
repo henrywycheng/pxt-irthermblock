@@ -32,7 +32,7 @@ namespace irthermo {
     export function irthermoTo1(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
-	pins.i2cWriteNumber(90,6,NumberFormat.UInt8LE,true)
+	pins.i2cWriteNumber(90,7,NumberFormat.UInt8LE,true)
 	let To1 = pins.i2cReadNumber(90, NumberFormat.UInt16LE, false)
         return Math.round(To1 * 0.02 - 273.15)
     }
@@ -43,7 +43,7 @@ namespace irthermo {
     export function irthermoTo2(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
-	pins.i2cWriteNumber(90,6,NumberFormat.UInt8LE,true)
+	pins.i2cWriteNumber(90,8,NumberFormat.UInt8LE,true)
 	let To2 = pins.i2cReadNumber(90, NumberFormat.UInt16LE, false)
         return Math.round(To2 * 0.02 - 273.15)
     }
