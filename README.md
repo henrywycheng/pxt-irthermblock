@@ -1,6 +1,6 @@
-# irthermblock
+# irthermo
 
-這是自製的 micro:bit irtherm 積木
+這是自製的 micro:bit irthermo 積木
 
 ## License
 
@@ -12,5 +12,5 @@ MIT
 (The metadata above is needed for package search.)
 
 ```package
-irthermblock=github.com/henrywycheng/pxt-irthermblock
+irthermo=github.com/henrywycheng/pxt-irthermoblock
 ```
