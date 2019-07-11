@@ -14,11 +14,9 @@ namespace irthermoblock {
 	return true
     }
 
-    //% blockId="irthermoTa" block="IRThermo Ta"
+    //% blockId="irthermoTa" block="IRThermoTa"
     //% blockGap=2 weight=88
     export function irthermoTa(): number {
 	return 0
     }
-
 }
-
