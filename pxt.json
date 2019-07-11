@@ -1,7 +1,7 @@
 {
-    "name": "irthermblock",
+    "name": "irthermo",
     "version": "0.0.1",
-    "description": "這是自製的 micro:bit irtherm 積木",
+    "description": "這是自製的 micro:bit irthermo 積木",
     "license": "MIT",
     "dependencies": {
         "core": "*"
@@ -9,7 +9,7 @@
     "files": [
         "README.md",
         "main.ts",
-        "_locales/zh/irthermblock-strings.json"
+        "_locales/zh/irthermoblock-strings.json"
     ],
     "public": true
 }
