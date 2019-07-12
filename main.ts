@@ -26,30 +26,19 @@ namespace irthermo {
     }
 
 
-    /* GY-906 MLX90614B IR Thermometer addr 0x5A register 0x07 return object1 temperature */
-    //% blockId="irthermoTo1" block="IRThermo get To1"
+    /* GY-906 MLX90614B IR Thermometer addr 0x5A register 0x07 return object temperature */
+    //% blockId="irthermoTo" block="IRThermo get Tobj"
     //% blockGap=2 weight=88
-    export function irthermoTo1(): number {
+    export function irthermoTo(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
 	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
 	pins.i2cWriteNumber(90,7,NumberFormat.UInt8LE,true)
-	let To1 = pins.i2cReadNumber(90, NumberFormat.UInt16LE, false)
-        return Math.round(To1 * 0.02 - 273.15)
-    }
-
-    /* GY-906 MLX90614B IR Thermometer addr 0x5A register 0x08 return object2 temperature */
-    //% blockId="irthermoTo2" block="IRThermo get To2"
-    //% blockGap=2 weight=88
-    export function irthermoTo2(): number {
-	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
-	pins.setPull(DigitalPin.P20, PinPullMode.PullUp)
-	pins.i2cWriteNumber(90,8,NumberFormat.UInt8LE,true)
-	let To2 = pins.i2cReadNumber(90, NumberFormat.UInt16LE, false)
-        return Math.round(To2 * 0.02 - 273.15)
+	let To = pins.i2cReadNumber(90, NumberFormat.UInt16LE, false)
+        return Math.round(To * 0.02 - 273.15)
     }
 
     /* GY-906 MLX90614B IR Thermometer addr 0x5A register 0xF0 return flags(4-bit) */
-    //% blockId="irthermoFlags" block="IRThermo Flags(4-bit)"
+    //% blockId="irthermoFlags" block="IRThermo Flags"
     //% blockGap=2 weight=88
     export function irthermoFlags(): number {
 	pins.setPull(DigitalPin.P19, PinPullMode.PullUp)
